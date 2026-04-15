@@ -12,7 +12,7 @@ Design and develop an Al/ML-driven predictive system that analyzes heterogeneous
 ## What's Done:
 
 - **Data Inspection** — loaded train (22083×45) and test (9465×43), identified 3 disorders, 9 subclasses, 9 unique combinations
-- **Data Cleaning** — recovered rows where disorder was missing but subclass existed, dropped unrecoverable rows, created combined 9-class target, dropped 6 identifier columns
+- **Data Cleaning** — recovered rows where disorder was missing but subclass existed, dropped unrecoverable rows
 - **Null Handling** — added missing_count feature, median-filled numerics, "Missing"-filled categoricals, manually defined num_cols and cat_cols lists
 - **Encoding** — label-encoded all categoricals + target, built X_train, X_test, y
 - **EDA** — target distribution (both levels), missing value histogram, symptom heatmap by subclass, test results heatmap by subclass
