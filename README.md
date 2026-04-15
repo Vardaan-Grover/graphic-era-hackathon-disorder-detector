@@ -19,7 +19,6 @@ Design and develop an Al/ML-driven predictive system that analyzes heterogeneous
 
 ## Not done yet:
 
-- **Feature Engineering** — parent age gap/sum, symptom/test aggregates, blood ratio
 - **Model Training** — LightGBM with 5-fold StratifiedKFold, then XGBoost/CatBoost
 - **Ensemble** — weighted probability averaging across models
 - **Submission** — decode predictions back to disorder + subclass columns
